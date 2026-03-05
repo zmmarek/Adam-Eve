@@ -4,7 +4,7 @@ async function searchBooks() {
     const query = document.getElementById("query").value.trim();
     if (!query) return;
 
-    const apiKey = "YOUR_API_KEY_HERE"; // <-- Replace with your key
+    const apiKey = "AIzaSyCDvv9-OKI8Pwu8NtARzn3UzoreKyBAs5w"; // <-- Replace with your key
     const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&maxResults=10&key=${apiKey}`;
 
     const resultsDiv = document.getElementById("results");
